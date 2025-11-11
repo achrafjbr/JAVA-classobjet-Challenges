@@ -32,5 +32,9 @@ public class Main {
         //circle.getCircumference();
         //circle.display();
 
+        /// Movie
+        //Movie movie = new Movie("Clash of titans",Rating.EXCELLENT.name());
+        //movie.displayRating();
+
     }
 }
