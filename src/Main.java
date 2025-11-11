@@ -39,6 +39,15 @@ public class Main {
         /// Employee
         //new  Employee("Karim",10000);
 
+        ///  Book
+        /*
+        Book book1 = new Book("La crime doublée","Agata christie",100);
+        book1.display();
+        Book book2 = new Book("Le droule","Albert Kamo",130);
+        book2.display();
+        Book book3 = new Book("dama lomniat","Ahmed bkhit",55);
+        book3.display();
+        */
 
     }
 }
