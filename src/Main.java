@@ -48,6 +48,10 @@ public class Main {
         Book book3 = new Book("dama lomniat","Ahmed bkhit",55);
         book3.display();
         */
+        ///  Temperature
+
+        Temperature temperature = new Temperature(20);
+        temperature.display();
 
     }
 }
