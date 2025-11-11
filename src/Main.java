@@ -12,19 +12,25 @@ public class Main {
         //rectangle.display();
 
         /// BankAccount
-       // BankAccount bankAccount = new BankAccount(1,1000);
-         /// deposit
+        // BankAccount bankAccount = new BankAccount(1,1000);
+        /// deposit
         // bankAccount.deposit(200);
         // bankAccount.displayBalance();
-         /// withdraw
+        /// withdraw
         // bankAccount.withdraw(500);
         // bankAccount.displayBalance();
 
         /// Car
-         /// Calling the default constructor with following way.
-            // new Car().displayCar();
-         ///  Calling parametrized constructor.
-           //new Car("Jawyl",1883,"bantly").displayCar();
+        /// Calling the default constructor with following way.
+        // new Car().displayCar();
+        ///  Calling parametrized constructor.
+        //new Car("Jawyl",1883,"bantly").displayCar();
+
+        /// Circle
+        //Circle circle = new Circle(10);
+        //circle.getArea();
+        //circle.getCircumference();
+        //circle.display();
 
     }
 }
