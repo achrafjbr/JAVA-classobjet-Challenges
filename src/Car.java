@@ -6,6 +6,9 @@ public class Car {
 
     Car() {
         System.out.println("Default constructor ...");
+        brand="JBS";
+        model="BMW";
+        year=2001;
     }
 
     public Car(String brand, int year, String model) {
