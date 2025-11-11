@@ -33,8 +33,12 @@ public class Main {
         //circle.display();
 
         /// Movie
-        //Movie movie = new Movie("Clash of titans",Rating.EXCELLENT.name());
+        //Movie movie = new Movie("Clash of titans",8);
         //movie.displayRating();
+
+        /// Employee
+        //new  Employee("Karim",10000);
+
 
     }
 }

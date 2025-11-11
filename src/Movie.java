@@ -8,15 +8,23 @@ enum Rating {
 
 public class Movie {
     String title;
-    Rating rate;
+    int rate;
 
-    public Movie(String title, String rate) {
+    public Movie(String title, int rate) {
         this.title = title;
-        this.rate = Rating.valueOf(rate);
+        this.rate = rate;
     }
 
     public void displayRating() {
         System.out.println("Movie title : " + title + ",  Movie rate : " + rate + " ");
+
+        if(rate> 8){
+            System.out.println("Movie title : " + title + ",  Movie rate : " + Rating.EXCELLENT + " ");
+        }else if (rate <8 && rate >5){
+            System.out.println("Movie title : " + title + ",  Movie rate : " + Rating.GOOD + " ");
+        }else{
+            System.out.println("Movie title : " + title + ",  Movie rate : " + Rating.POOR + " ");
+        }
 
     }
 }
