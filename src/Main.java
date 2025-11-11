@@ -20,8 +20,11 @@ public class Main {
         // bankAccount.withdraw(500);
         // bankAccount.displayBalance();
 
-
-
+        /// Car
+         /// Calling the default constructor with following way.
+            // new Car().displayCar();
+         ///  Calling parametrized constructor.
+           //new Car("Jawyl",1883,"bantly").displayCar();
 
     }
 }
