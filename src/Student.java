@@ -11,6 +11,6 @@ public class Student {
     }
 
     public void displayInfo(){
-        System.out.println("Student => name : "+name+"  age : "+age+"  grade : "+grade+" ");
+        System.out.println("Student => name : "+name+",  age : "+age+",  grade : "+grade+" ");
     }
 }
