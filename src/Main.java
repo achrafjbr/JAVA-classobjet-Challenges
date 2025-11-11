@@ -1,3 +1,6 @@
+import java.util.ArrayList;
+import java.util.List;
+
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
@@ -40,6 +43,7 @@ public class Main {
         //new  Employee("Karim",10000);
 
         ///  Book
+
         /*
         Book book1 = new Book("La crime doublée","Agata christie",100);
         book1.display();
@@ -47,7 +51,10 @@ public class Main {
         book2.display();
         Book book3 = new Book("dama lomniat","Ahmed bkhit",55);
         book3.display();
+        Book[] bookList = {book1,book2,book3};
+        Book.books(bookList);
         */
+
         ///  Temperature
 
         Temperature temperature = new Temperature(20);
